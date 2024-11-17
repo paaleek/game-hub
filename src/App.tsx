@@ -26,6 +26,7 @@ function App() {
           width={"225px"}
         >
           <GenereList
+            selectedGenre={selectedGenre}
             onSelectGenre={(genre) => setSelectedGenre(genre)}
           ></GenereList>
         </GridItem>
